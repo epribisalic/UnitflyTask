@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "ShowCase/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "StringLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShowCase.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShowCase.dll": {}
+        }
+      },
+      "StringLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/StringLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StringLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShowCase/1.0.0": {
+      "type": "project",
+      "path": "../ShowCase/ShowCase.csproj",
+      "msbuildProject": "../ShowCase/ShowCase.csproj"
+    },
+    "StringLibrary/1.0.0": {
+      "type": "project",
+      "path": "../StringLibrary/StringLibrary.csproj",
+      "msbuildProject": "../StringLibrary/StringLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "ShowCase >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ena\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Ena\\Desktop\\UnitflyTask\\ClassLibrary\\ClassLibrary.csproj",
+      "projectName": "ClassLibrary",
+      "projectPath": "C:\\Users\\Ena\\Desktop\\UnitflyTask\\ClassLibrary\\ClassLibrary.csproj",
+      "packagesPath": "C:\\Users\\Ena\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ena\\Desktop\\UnitflyTask\\ClassLibrary\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Ena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\Ena\\Desktop\\UnitflyTask\\ShowCase\\ShowCase.csproj": {
+              "projectPath": "C:\\Users\\Ena\\Desktop\\UnitflyTask\\ShowCase\\ShowCase.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
