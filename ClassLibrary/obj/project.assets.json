@@ -1,48 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
-      "ShowCase/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "StringLibrary": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ShowCase.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ShowCase.dll": {}
-        }
-      },
-      "StringLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/StringLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/StringLibrary.dll": {}
-        }
-      }
-    }
+    "net5.0": {}
   },
-  "libraries": {
-    "ShowCase/1.0.0": {
-      "type": "project",
-      "path": "../ShowCase/ShowCase.csproj",
-      "msbuildProject": "../ShowCase/ShowCase.csproj"
-    },
-    "StringLibrary/1.0.0": {
-      "type": "project",
-      "path": "../StringLibrary/StringLibrary.csproj",
-      "msbuildProject": "../StringLibrary/StringLibrary.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": [
-      "ShowCase >= 1.0.0"
-    ]
+    "net5.0": []
   },
   "packageFolders": {
     "C:\\Users\\Ena\\.nuget\\packages\\": {}
@@ -70,11 +33,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "C:\\Users\\Ena\\Desktop\\UnitflyTask\\ShowCase\\ShowCase.csproj": {
-              "projectPath": "C:\\Users\\Ena\\Desktop\\UnitflyTask\\ShowCase\\ShowCase.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

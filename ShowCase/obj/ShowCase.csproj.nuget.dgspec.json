@@ -4,14 +4,14 @@
     "C:\\Users\\Ena\\Desktop\\UnitflyTask\\ShowCase\\ShowCase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ena\\Desktop\\ClassLibrary\\ClassLibrary.csproj": {
+    "C:\\Users\\Ena\\Desktop\\UnitflyTask\\ClassLibrary\\ClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ena\\Desktop\\ClassLibrary\\ClassLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Ena\\Desktop\\UnitflyTask\\ClassLibrary\\ClassLibrary.csproj",
         "projectName": "ClassLibrary",
-        "projectPath": "C:\\Users\\Ena\\Desktop\\ClassLibrary\\ClassLibrary.csproj",
+        "projectPath": "C:\\Users\\Ena\\Desktop\\UnitflyTask\\ClassLibrary\\ClassLibrary.csproj",
         "packagesPath": "C:\\Users\\Ena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ena\\Desktop\\ClassLibrary\\obj\\",
+        "outputPath": "C:\\Users\\Ena\\Desktop\\UnitflyTask\\ClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ena\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Ena\\Desktop\\ClassLibrary\\ClassLibrary.csproj": {
-                "projectPath": "C:\\Users\\Ena\\Desktop\\ClassLibrary\\ClassLibrary.csproj"
+              "C:\\Users\\Ena\\Desktop\\UnitflyTask\\ClassLibrary\\ClassLibrary.csproj": {
+                "projectPath": "C:\\Users\\Ena\\Desktop\\UnitflyTask\\ClassLibrary\\ClassLibrary.csproj"
               },
               "C:\\Users\\Ena\\Desktop\\UnitflyTask\\StringLibrary\\StringLibrary.csproj": {
                 "projectPath": "C:\\Users\\Ena\\Desktop\\UnitflyTask\\StringLibrary\\StringLibrary.csproj"

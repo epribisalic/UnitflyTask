@@ -27,8 +27,8 @@
   "libraries": {
     "ClassLibrary/1.0.0": {
       "type": "project",
-      "path": "../../ClassLibrary/ClassLibrary.csproj",
-      "msbuildProject": "../../ClassLibrary/ClassLibrary.csproj"
+      "path": "../ClassLibrary/ClassLibrary.csproj",
+      "msbuildProject": "../ClassLibrary/ClassLibrary.csproj"
     },
     "StringLibrary/1.0.0": {
       "type": "project",
@@ -69,8 +69,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Ena\\Desktop\\ClassLibrary\\ClassLibrary.csproj": {
-              "projectPath": "C:\\Users\\Ena\\Desktop\\ClassLibrary\\ClassLibrary.csproj"
+            "C:\\Users\\Ena\\Desktop\\UnitflyTask\\ClassLibrary\\ClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\Ena\\Desktop\\UnitflyTask\\ClassLibrary\\ClassLibrary.csproj"
             },
             "C:\\Users\\Ena\\Desktop\\UnitflyTask\\StringLibrary\\StringLibrary.csproj": {
               "projectPath": "C:\\Users\\Ena\\Desktop\\UnitflyTask\\StringLibrary\\StringLibrary.csproj"
